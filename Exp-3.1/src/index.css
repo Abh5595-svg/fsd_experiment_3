@@ -1,0 +1,58 @@
+/* Reset default browser spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, #root {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  padding: 1.5rem 10%;
+  background-color: #111;
+  display: flex;
+  gap: 30px;
+  border-bottom: 2px solid #00d4ff;
+}
+
+.nav-link {
+  color: #00d4ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Page Card Styling */
+.content {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-card {
+  background-color: #252525;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
